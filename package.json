@@ -1,0 +1,50 @@
+{
+    "name": "sterling",
+    "homepage": "https://github.com/khrome/sterling",
+    "version": "0.5.1",
+    "main": "sterling.js",
+    "description": "Buildless web layer for using NPMs in client and server",
+    "keywords": [
+        "browser",
+        "npm",
+        "modules",
+        "UMD",
+        "server",
+        "webpack",
+        "express",
+        "buildless"
+    ],
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/khrome/sterling/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/khrome/sterling.git"
+    },
+    "dependencies": {
+        "async-objects": "*",
+        "async-arrays": "*",
+        "extended-emitter": "*",
+        "whammo": "0.4.1",
+        "micro-serve": "1.1.1",
+        "ascii-art": "*",
+        "yargs": "*",
+        "webpack": "*",
+        "director": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "bin": {
+        "sterling": "./bin/bin.js"
+    },
+    "optionalDependencies": {
+    },
+    "engines": {
+        "node": "*"
+    }
+}
